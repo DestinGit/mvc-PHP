@@ -12,4 +12,3 @@ $html = getRenderedView("home", [
 
 echo $html;
 
-//require "views/home.php";

@@ -1,0 +1,20 @@
+{
+  "name": "mvc-PHP",
+  "homepage": "https://github.com/DestinGit/mvc-PHP",
+  "authors": [
+    "destin"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
