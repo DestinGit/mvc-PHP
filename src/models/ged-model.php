@@ -50,7 +50,7 @@ function handleUpload(array $upload): array {
         $fileName = uniqid('doc_') . '.' . $extension;
 //        $filePath = getcwd() . '/uploadedDocs/';
 //        $filePath = __DIR__ . '/uploadedDocs/' . $fileName;
-        $filePath = ROOT_PATH . '/uploadedDocs/'  . $fileName;
+        $filePath = WEB_PATH . '/uploadedDocs/'  . $fileName;
 
         // Copie du fichier temporaire
         if (!move_uploaded_file($upload['tmp_name'], $filePath)) {

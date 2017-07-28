@@ -1,12 +1,12 @@
 <?php
 session_start();
 // Chargement de la bibliothèque mvc
-require 'lib/mvc.php';
+//require 'lib/mvc.php';
 // Chargement du modèle
-require 'models/ged-model.php';
+require MODEL_PATH . '/ged-model.php';
 
 
-$documentList = getDocumentList('data/documents.json');
+$documentList = getDocumentList(ROOT_PATH . '/data/documents.json');
 
 // Affichage de la vue
 echo getRenderedView('ged/list', array(

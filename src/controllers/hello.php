@@ -1,6 +1,6 @@
 <?php
 // Chargement de la bibliothèque
-require "lib/mvc.php";
+//require "lib/mvc.php";
 $pageTitle = "Accueil";
 $name = filter_input(INPUT_GET, "name", FILTER_SANITIZE_STRING);
 

@@ -1,11 +1,12 @@
 <?php
 // Chargement de la bibliothèque
-require "lib/mvc.php";
+//require "lib/mvc.php";
+
 $name = "toto";
 $pageTitle = "Accueil";
 
 // liste de tous les fichiers dans  /data
-$fileList = glob("data/*.json");
+$fileList = glob(ROOT_PATH . "/data/*.json");
 
 //foreach ($fileList as $filename) {
 //    echo "$filename size " . filesize($filename) . "\n";
