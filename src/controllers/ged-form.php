@@ -4,7 +4,7 @@ session_start();
 // Chargement de la bibliothèque mvc
 require 'lib/mvc.php';
 // Chargement du modèle
-require  'models/ged-model.php';
+require 'models/ged-model.php';
 
 define('ROOT_PATH', getcwd());
 
