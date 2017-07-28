@@ -11,7 +11,16 @@ define('MODEL_PATH', SRC_PATH . '/models');
 // Chargement de la bibliothèque MVC
 require ROOT_PATH . '/lib/mvc.php';
 
-$controller = filter_input(INPUT_GET, 'c', FILTER_SANITIZE_URL);
+// Récupération de la liste des routes
+$routes = require SRC_PATH . '/conf/routes.php';
 
-//var_dump(CTRL_PATH . "/{$controller}.php");
-require CTRL_PATH . "/{$controller}.php";
+$url = filter_input(INPUT_GET, 'c', FILTER_SANITIZE_URL);
+
+// Ajout du caractère / initial s'il n'existe pas
+if (substr($url, 0, 1) != '/') {
+    $url = '/' . $url;
+}
+
+dispatch($url, $routes);
+
+//require CTRL_PATH . "/{$controller}.php";
