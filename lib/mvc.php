@@ -50,13 +50,24 @@ function getRouteInfo(string $url, array $routes): array {
 
     foreach ($routes as $path => $target) {
         $route = "#^{$path}$#";
-
+//        echo '<pre>';
+//        var_dump($route);
+//        echo '</pre>';
+//        echo "$route, $url";
         if (preg_match($route, $url, $matches)) {
+//            echo '<pre>';
+//            var_dump($matches);
+//            echo '</pre>';
+//            echo '<pre>';
+//            var_dump($path);
+//            echo '</pre>';
             // Récupération de l'action et du contrôleur
             $parts = explode(":", $target);
             // Elimination du premier élément
             array_shift($matches);
-
+//            echo '<pre>';
+//            var_dump($matches);
+//            echo '</pre>';
             $routeInfo['controller'] = $parts[0];
             $routeInfo['action'] = $parts[1];
             $routeInfo['params'] = $matches;
@@ -66,4 +77,16 @@ function getRouteInfo(string $url, array $routes): array {
     }
 
     return $routeInfo;
+}
+
+/**
+ * Fonction de connexion à une base de données
+ * @return PDO
+ */
+function getPDO():PDO {
+    $options = [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+    ];
+
+    return new PDO(DSN,DB_USER,DB_PASS, $options);
 }
