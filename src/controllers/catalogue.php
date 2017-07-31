@@ -16,7 +16,7 @@ function index() {
 function byAuthor(string $name) {
     require MODEL_PATH . '/catalogue-model.php';
 
-    echo getRenderedView('catalogue/list', array(
-        'catalogue' => getBooksByAuthor($name)
+    echo getRenderedView('catalogue/listByAuthor', array(
+        'bookList' => getBooksByAuthor($name)
     ));
 }

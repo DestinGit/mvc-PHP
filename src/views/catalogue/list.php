@@ -24,7 +24,6 @@
                     <?php foreach ($cols as $colName) :?>
                         <th><?=$colName?></th>
                     <?php endforeach;?>
-                    <th>Action</th>
                 </tr>
             <?php endif;?>
         </tr>
@@ -33,16 +32,13 @@
     <?php foreach ($catalogue as $livre):?>
         <tr>
             <?php
-            $id = '';
             foreach ($livre as $key => $colData) : ?>
-                <?php if($key == 'id') {
-                    $id = $colData;
-                }
-                    ?>
-
+                <?php if($key == 'nom') :?>
+                    <td><a href="/catalogue/par-auteur/<?=urlencode($colData)?>"><?= $colData; ?></a></td>
+                <?php else:?>
                 <td><?= $colData; ?></td>
+                    <?php endif;?>
             <?php endforeach;?>
-            <td><a href="?id=<?=$id?>">X</a></td>
         </tr>
     <?php endforeach;?>
     </tbody>
