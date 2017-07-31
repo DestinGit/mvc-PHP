@@ -17,9 +17,11 @@ function getAll():array {
  * @return array
  */
 function getBooksByAuthor(string $name): array {
+    // Connexion à la base de données
     $connexion = getPDO();
-
-    $sql = 'SELECT id, titre, prix, nom_complet, editeur, genre FROM vue_catalogue WHERE nom LIKE :name';
+    // requête SQL
+    $sql = 'SELECT id, titre, prix, nom_complet, editeur, genre FROM vue_catalogue WHERE nom_auteur LIKE :name';
+    // Définition de la requête préparée
     $resultSet = $connexion->prepare($sql);
 
     $resultSet->bindParam('name', $name, PDO::PARAM_STR);
