@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a95222-5db5-46a0-a023-1977ffe137e2" name="Default" comment="ajout docs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/bibliotheque.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/httpd-vhosts.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/catalogue/viewByAuthor.php" afterPath="$PROJECT_DIR$/src/views/catalogue/listByAuthor.php" />
+    <list default="true" id="11a95222-5db5-46a0-a023-1977ffe137e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/catalogue.php" afterPath="$PROJECT_DIR$/src/controllers/catalogue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/catalogue-model.php" afterPath="$PROJECT_DIR$/src/models/catalogue-model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/catalogue/list.php" afterPath="$PROJECT_DIR$/src/views/catalogue/list.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +73,8 @@
       <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/catalogue/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="91">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -468,7 +462,7 @@
       <workItem from="1501139782361" duration="500000" />
       <workItem from="1501225893609" duration="13970000" />
       <workItem from="1501248725708" duration="5050000" />
-      <workItem from="1501485021959" duration="17379000" />
+      <workItem from="1501485021959" duration="17664000" />
     </task>
     <task id="LOCAL-00001" summary="php mvc&#10;Nouveau controller hello">
       <created>1501075756765</created>
@@ -533,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501510236172</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ajout docs&#10;fichier bdd">
+      <created>1501512312447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1501512312447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43843000" />
+    <option name="totallyTimeSpent" value="44128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,9 +551,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -590,7 +591,8 @@
     <MESSAGE value="Modernisation du framework&#10;Ajout du concept d'action&#10;passage de paramètres aux actions" />
     <MESSAGE value="connexion à la bdd" />
     <MESSAGE value="ajout docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout docs" />
+    <MESSAGE value="ajout docs&#10;fichier bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout docs&#10;fichier bdd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -995,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/catalogue/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="91">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>

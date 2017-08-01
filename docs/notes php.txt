@@ -1,0 +1,2 @@
+lancer un serveur interne php
+$ php -S localhost:8000
