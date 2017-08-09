@@ -1,3 +1,4 @@
-.idea/*
+.idea
 bower_components/*
 web/bower_components/*
+/vendor/

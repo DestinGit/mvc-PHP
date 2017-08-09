@@ -11,8 +11,8 @@ define('MODEL_PATH', SRC_PATH . '/models');
 // Chargement des constantes de l'application
 require SRC_PATH. '/conf/const.php';
 
-// Chargement de la bibliothèque MVC
-require ROOT_PATH . '/lib/mvc.php';
+// Chargement du Framework
+require ROOT_PATH . '/vendor/autoload.php';
 
 // Récupération de la liste des routes
 $routes = require SRC_PATH . '/conf/routes.php';

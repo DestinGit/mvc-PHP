@@ -1,0 +1,11 @@
+{
+    "name": "formation/mvc-php",
+    "type": "project",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "m2i\\Framework\\": "Framework/"
+        }
+    }
+}
