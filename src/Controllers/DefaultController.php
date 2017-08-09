@@ -1,11 +1,12 @@
 <?php
 
 namespace m2i\project\Controllers;
-
+use m2i\Framework\View;
 
 class DefaultController
 {
     public function indexAction() {
-        echo 'page par défaut';
+        $view = new View();
+        echo $view->renderView('default/index', []);
     }
 }
