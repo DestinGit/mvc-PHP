@@ -1,4 +1,6 @@
 <?php
+use m2i\Framework\Router;
+
 // Définition des constantes
 define('ROOT_PATH', dirname(__DIR__));
 define('WEB_PATH', __DIR__);
@@ -19,12 +21,6 @@ $routes = require SRC_PATH . '/conf/routes.php';
 
 $url = filter_input(INPUT_GET, 'c', FILTER_SANITIZE_URL);
 
-//var_dump($url);
-// Ajout du caractère / initial s'il n'existe pas
-if (substr($url, 0, 1) != '/') {
-    $url = '/' . $url;
-}
-//var_dump($url);
-dispatch($url, $routes);
+$router = new Router($url, $routes);
 
-//require CTRL_PATH . "/{$controller}.php";
+dispatch($url, $routes);
