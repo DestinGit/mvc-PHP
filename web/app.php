@@ -1,5 +1,6 @@
 <?php
 use m2i\Framework\Router;
+use m2i\Framework\Dispatcher;
 
 // Définition des constantes
 define('ROOT_PATH', dirname(__DIR__));
@@ -23,4 +24,7 @@ $url = filter_input(INPUT_GET, 'c', FILTER_SANITIZE_URL);
 
 $router = new Router($url, $routes);
 
-dispatch($url, $routes);
+$dispatcher = new Dispatcher($router);
+$dispatcher->dispatch();
+
+//dispatch($url, $routes);
