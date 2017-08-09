@@ -16,13 +16,16 @@ class Dispatcher
      */
     private $router;
 
+    private $namespace;
+
     /**
      * Dispatcher constructor.
      * @param IRouter $router
      */
-    public function __construct(IRouter $router)
+    public function __construct(IRouter $router, $namespace)
     {
         $this->router = $router;
+        $this->namespace = $namespace;
     }
 
     /**
@@ -30,7 +33,8 @@ class Dispatcher
      */
     public function dispatch() {
         // Instanciation du contrôleur
-        $controller = new ($this->router->getControllerName())();
+        $controllerClassName = $this->namespace . $this->router->getControllerName();
+        $controller = new $controllerClassName();
 
         // Exécution de l'action
         call_user_func_array([$controller, $this->router->getActionName()],

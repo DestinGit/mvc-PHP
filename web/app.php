@@ -24,7 +24,7 @@ $url = filter_input(INPUT_GET, 'c', FILTER_SANITIZE_URL);
 
 $router = new Router($url, $routes);
 
-$dispatcher = new Dispatcher($router);
+$dispatcher = new Dispatcher($router, 'm2i\\project\\Controllers\\');
 $dispatcher->dispatch();
 
 //dispatch($url, $routes);

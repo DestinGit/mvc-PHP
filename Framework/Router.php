@@ -88,8 +88,8 @@ class Router implements IRouter
                 // Elimination du premier élément
                 array_shift($matches);
 
-                $this->controllerName = $parts[0];
-                $this->actionName = $parts[1];
+                $this->controllerName = $parts[0] . 'Controller';
+                $this->actionName = $parts[1] . 'Action';
                 $this->actionParameters = $matches;
 
                 break;
