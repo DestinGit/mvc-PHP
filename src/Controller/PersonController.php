@@ -10,6 +10,7 @@ namespace m2i\project\Controller;
 
 
 use m2i\Framework\View;
+use m2i\project\Model\DAO\CitieDAO;
 use m2i\project\Model\DAO\PersonDAO;
 use m2i\project\Model\Entity\PersonDTO;
 use \m2i\Framework\ServiceContainer as SC;
@@ -33,6 +34,15 @@ class PersonController
         echo $view->renderView('person/form');
     }
 
+    public function cityByPostalCodeAction($postalCode) {
+        $dao = $this->getCityDAO();
+        $cities = $dao->find(['postal_code'=>$postalCode])
+            ->getAllAsArray();
+
+        header('Content-Type: application/json');
+        echo json_encode($cities);
+    }
+
     /**
      * @return PersonDTO
      */
@@ -49,6 +59,12 @@ class PersonController
        return SC::get('person.dao');
     }
 
+    /**
+     * @return CitieDAO
+     */
+    private function getCityDAO():CitieDAO {
+        return SC::get('city.dao');
+    }
     /**
      * @return View
      */

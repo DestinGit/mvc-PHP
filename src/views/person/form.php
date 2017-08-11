@@ -32,7 +32,7 @@
                 <label for="cp">Code Postal</label>
                 <input type="text" name="postalCode" id="cp" class="form-control">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" id="cityContainer">
                 <label for="city">Ville</label>
                 <select name="city" id="city" class="form-control"></select>
             </div>
@@ -43,3 +43,4 @@
         <button type="submit" name="submit" class="btn btn-primary btn-block">Valider</button>
     </div>
 </form>
+<script src="js/person/form.js" defer></script>

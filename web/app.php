@@ -31,6 +31,10 @@ SC::add('person.dao', function () {
     return new \m2i\project\Model\DAO\PersonDAO(SC::get('db.connection'));
 });
 
+SC::add('city.dao', function () {
+    return new \m2i\project\Model\DAO\CitieDAO(SC::get('db.connection'));
+});
+
 SC::add('person.dto', function () {
     return new \m2i\project\Model\Entity\PersonDTO();
 });
