@@ -1,7 +1,7 @@
 <?php
 use m2i\Framework\Router;
 use m2i\Framework\Dispatcher;
-
+use \m2i\Framework\ServiceContainer as SC;
 // Définition des constantes
 define('ROOT_PATH', dirname(__DIR__));
 define('WEB_PATH', __DIR__);
@@ -16,6 +16,28 @@ require SRC_PATH. '/conf/const.php';
 
 // Chargement du Framework
 require ROOT_PATH . '/vendor/autoload.php';
+
+// Définition des dépendances de l'application
+SC::add('db.connection', function () {
+    return new \PDO(
+        'mysql:host=localhost;dbname=training_center',
+        'root',
+        '',
+        [\PDO::ATTR_ERRMODE=>\PDO::ERRMODE_EXCEPTION]
+    );
+});
+
+SC::add('person.dao', function () {
+    return new \m2i\project\Model\DAO\PersonDAO(SC::get('db.connection'));
+});
+
+SC::add('person.dto', function () {
+    return new \m2i\project\Model\Entity\PersonDTO();
+});
+
+SC::add('view', function () {
+    return new \m2i\Framework\View();
+});
 
 // Récupération de la liste des routes
 $routes = require SRC_PATH . '/conf/routes.php';
