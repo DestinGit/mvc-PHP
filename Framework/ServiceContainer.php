@@ -22,7 +22,7 @@ class ServiceContainer
     public static function get($key) {
         if (isset(self::$container[$key])) {
             $callable = self::$container[$key];
-            $callable();
+            return $callable();
         }
     }
 

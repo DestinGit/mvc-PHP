@@ -12,6 +12,7 @@ namespace m2i\project\Controller;
 use m2i\Framework\View;
 use m2i\project\Model\DAO\PersonDAO;
 use m2i\project\Model\Entity\PersonDTO;
+use \m2i\Framework\ServiceContainer as SC;
 
 class PersonController
 {
@@ -21,21 +22,38 @@ class PersonController
         if($isSubmitted) {
             $contact = filter_input(INPUT_POST, 'contact', FILTER_SANITIZE_STRING, FILTER_REQUIRE_ARRAY);
 
-            $personne = new PersonDTO();
+            $personne = $this->getPersonDTO();
             $personne->hydrate($contact);
 
-            $pdo = new \PDO(
-                'mysql:host=localhost;dbname=training_center',
-                'root',
-                ''
-            );
-            $dao = new PersonDAO($pdo);
-
+            $dao = $this->getPersonDAO();
             $dao->save($personne);
         }
 
-        $view = new View();
-
+        $view = $this->getView();
         echo $view->renderView('person/form');
+    }
+
+    /**
+     * @return PersonDTO
+     */
+    private function getPersonDTO():PersonDTO {
+        return SC::get('person.dto');
+    }
+
+
+    /**
+     * @return PersonDAO
+     */
+    private function getPersonDAO():PersonDAO
+    {
+       return SC::get('person.dao');
+    }
+
+    /**
+     * @return View
+     */
+    private function getView(): View
+    {
+        return SC::get('view');
     }
 }
