@@ -6,7 +6,9 @@
     "autoload": {
         "psr-4": {
             "m2i\\Framework\\": "Framework/",
-            "m2i\\project\\Controllers\\": "src/Controllers/"
+            "m2i\\project\\Controllers\\": "src/Controllers/",
+            "m2i\\projet\\Model\\DAO\\": "src/Model/DAO/",
+            "m2i\\projet\\Model\\Entity\\": "src/Model/Entity/"
         }
     }
 }
