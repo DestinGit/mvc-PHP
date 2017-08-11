@@ -1,6 +1,6 @@
 <?php
 
-namespace m2i\project\Controllers;
+namespace m2i\project\Controller;
 use m2i\Framework\QueryBuilder;
 use m2i\Framework\View;
 
