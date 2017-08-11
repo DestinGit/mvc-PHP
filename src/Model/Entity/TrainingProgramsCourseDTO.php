@@ -38,25 +38,25 @@ private $order;
 
 
 
-    public function setId($programId){
+    public function setProgramId($programId){
             $this->programId = $programId;
             return $this;
         }
-public function getId(){
+public function getProgramId(){
             return $this->programId;
         }
-public function setId($courseId){
+public function setCourseId($courseId){
             $this->courseId = $courseId;
             return $this;
         }
-public function getId(){
+public function getCourseId(){
             return $this->courseId;
         }
-public function setId($order){
+public function setOrderId($order){
             $this->order = $order;
             return $this;
         }
-public function getId(){
+public function getOrderId(){
             return $this->order;
         }
 

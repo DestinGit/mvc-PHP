@@ -8,7 +8,7 @@ define('WEB_PATH', __DIR__);
 define('SRC_PATH', ROOT_PATH . '/src');
 
 define('VIEW_PATH', SRC_PATH . '/views');
-define('CTRL_PATH', SRC_PATH . '/controllers');
+define('CTRL_PATH', SRC_PATH . '/controller');
 define('MODEL_PATH', SRC_PATH . '/models');
 
 // Chargement des constantes de l'application
@@ -24,7 +24,7 @@ $url = filter_input(INPUT_GET, 'c', FILTER_SANITIZE_URL);
 
 $router = new Router($url, $routes);
 
-$dispatcher = new Dispatcher($router, 'm2i\\project\\Controllers\\');
+$dispatcher = new Dispatcher($router, 'm2i\\project\\Controller\\');
 $dispatcher->dispatch();
 
 //dispatch($url, $routes);

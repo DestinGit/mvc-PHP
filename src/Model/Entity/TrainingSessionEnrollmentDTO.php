@@ -38,18 +38,18 @@ private $degreeId;
 
 
 
-    public function setId($sessionId){
+    public function setSessionId($sessionId){
             $this->sessionId = $sessionId;
             return $this;
         }
-public function getId(){
+public function getSessionId(){
             return $this->sessionId;
         }
-public function setId($personId){
+public function setPersonId($personId){
             $this->personId = $personId;
             return $this;
         }
-public function getId(){
+public function getPersonId(){
             return $this->personId;
         }
 public function setDegreeId($degreeId){
