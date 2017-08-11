@@ -1,7 +1,7 @@
 <?php
-namespace m2i\projet\Model\DAO;
+namespace m2i\project\Model\DAO;
 
-use m2i\projet\Model\Entity\TrainingProgramDTO;
+use m2i\project\Model\Entity\TrainingProgramDTO;
 
 class TrainingProgramDAO implements ITrainingProgramDAO {
 

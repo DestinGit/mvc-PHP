@@ -2,65 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a95222-5db5-46a0-a023-1977ffe137e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/CitieDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ClassroomDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/CourseDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/CoursesScheduleDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/CoursesSkillDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/DegreeDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/DegreeLevelDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IAddresseDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ICitieDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IClassroomDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ICourseDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ICoursesScheduleDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ICoursesSkillDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IDegreeDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IDegreeLevelDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IPersonDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IRoleDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ISkillDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainerDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainersSkillDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingProgramDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingProgramsCourseDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingSessionDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingSessionEnrollmentDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IUserDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/IUsersRoleDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/PersonDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/RoleDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/SkillDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainerDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainersSkillDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingProgramDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingProgramsCourseDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingSessionDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingSessionEnrollmentDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/UserDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DAO/UsersRoleDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/AddresseDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/CitieDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/ClassroomDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/CourseDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/CoursesScheduleDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/CoursesSkillDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/DegreeDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/DegreeLevelDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/PersonDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/RoleDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/SkillDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainerDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainersSkillDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingProgramDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingProgramsCourseDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingSessionDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingSessionEnrollmentDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/UserDTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Entity/UsersRoleDTO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/Person.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/CitieDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/CitieDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ClassroomDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ClassroomDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/CourseDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/CourseDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/CoursesScheduleDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/CoursesScheduleDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/CoursesSkillDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/CoursesSkillDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/DegreeDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/DegreeDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/DegreeLevelDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/DegreeLevelDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IAddresseDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IAddresseDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ICitieDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ICitieDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IClassroomDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IClassroomDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ICourseDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ICourseDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ICoursesScheduleDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ICoursesScheduleDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ICoursesSkillDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ICoursesSkillDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IDegreeDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IDegreeDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IDegreeLevelDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IDegreeLevelDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IPersonDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IPersonDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IRoleDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IRoleDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ISkillDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ISkillDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ITrainerDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainerDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ITrainersSkillDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainersSkillDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ITrainingProgramDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingProgramDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ITrainingProgramsCourseDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingProgramsCourseDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ITrainingSessionDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingSessionDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/ITrainingSessionEnrollmentDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/ITrainingSessionEnrollmentDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IUserDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IUserDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/IUsersRoleDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/IUsersRoleDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/PersonDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/PersonDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/RoleDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/RoleDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/SkillDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/SkillDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/TrainerDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainerDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/TrainersSkillDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainersSkillDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/TrainingProgramDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingProgramDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/TrainingProgramsCourseDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingProgramsCourseDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/TrainingSessionDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingSessionDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/TrainingSessionEnrollmentDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/TrainingSessionEnrollmentDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/UserDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/UserDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DAO/UsersRoleDAO.php" afterPath="$PROJECT_DIR$/src/Model/DAO/UsersRoleDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/AddresseDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/AddresseDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/CitieDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/CitieDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/ClassroomDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/ClassroomDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/CourseDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/CourseDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/CoursesScheduleDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/CoursesScheduleDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/CoursesSkillDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/CoursesSkillDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/DegreeDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/DegreeDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/DegreeLevelDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/DegreeLevelDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/PersonDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/PersonDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/RoleDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/RoleDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/SkillDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/SkillDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TrainerDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainerDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TrainersSkillDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainersSkillDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TrainingProgramDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingProgramDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TrainingProgramsCourseDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingProgramsCourseDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TrainingSessionDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingSessionDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TrainingSessionEnrollmentDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TrainingSessionEnrollmentDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/UserDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/UserDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/UsersRoleDTO.php" afterPath="$PROJECT_DIR$/src/Model/Entity/UsersRoleDTO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/conf/routes.php" afterPath="$PROJECT_DIR$/src/conf/routes.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,12 +88,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/conf/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/Person.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddresseDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding>
+                <marker date="1502444188047" expanded="true" signature="481:504" ph="SELECT * FRO... addresses" />
+                <marker date="1502444188047" expanded="true" signature="712:746" ph="SELECT * FRO... addresses" />
+                <marker date="1502444188047" expanded="true" signature="1070:1093" ph="SELECT * FRO... addresses" />
+                <marker date="1502444188047" expanded="true" signature="4093:4205" ph="INSERT INTO addresses... " />
+                <marker date="1502444188047" expanded="true" signature="4617:4727" ph="UPDATE addre... " />
+                <marker date="1502444188047" expanded="true" signature="5387:5419" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,31 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Router.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/Router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mvc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/mvc.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
               <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dispatcher.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/Dispatcher.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -158,7 +167,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Framework/QueryBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
@@ -177,6 +196,17 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>m2i\projet</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>m2i\project</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Destin\CoursJS\Sem5\mvc-PHP\src\Model</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -221,7 +251,6 @@
         <option value="$PROJECT_DIR$/lib/mvc.php" />
         <option value="$PROJECT_DIR$/src/views/default-layout.php" />
         <option value="$PROJECT_DIR$/src/views/catalogue/viewByAuthor.php" />
-        <option value="$PROJECT_DIR$/src/conf/routes.php" />
         <option value="$PROJECT_DIR$/src/controllers/catalogue.php" />
         <option value="$PROJECT_DIR$/src/models/catalogue-model.php" />
         <option value="$PROJECT_DIR$/src/views/catalogue/listByAuthor.php" />
@@ -235,7 +264,9 @@
         <option value="$PROJECT_DIR$/src/views/default/index.php" />
         <option value="$PROJECT_DIR$/src/Controllers/DefaultController.php" />
         <option value="$PROJECT_DIR$/Framework/QueryBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/conf/routes.php" />
       </list>
     </option>
   </component>
@@ -296,7 +327,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,11 +345,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,10 +360,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,7 +519,7 @@
       <workItem from="1501849947635" duration="39000" />
       <workItem from="1502274807478" duration="8817000" />
       <workItem from="1502285983955" duration="3366000" />
-      <workItem from="1502436018705" duration="7162000" />
+      <workItem from="1502436018705" duration="8080000" />
     </task>
     <task id="LOCAL-00001" summary="php mvc&#10;Nouveau controller hello">
       <created>1501075756765</created>
@@ -610,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502443503752</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ajout des classes DAO et DTO pour la base de données training_center">
+      <created>1502443615747</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1502443615747</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63512000" />
+    <option name="totallyTimeSpent" value="64430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,6 +663,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -645,7 +676,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -675,23 +705,14 @@
     <MESSAGE value="mvc poo : DefaultController" />
     <MESSAGE value="mvc object" />
     <MESSAGE value="Création d'une class QueryBuilder et Test dans defaultController.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création d'une class QueryBuilder et Test dans defaultController.php" />
+    <MESSAGE value="Ajout des classes DAO et DTO pour la base de données training_center" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des classes DAO et DTO pour la base de données training_center" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#31#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/ged-list.php" />
     <entry file="file://$PROJECT_DIR$/src/views/default-layout.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -857,16 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#31#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/ged-model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -893,14 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conf/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -939,21 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <marker date="1502442671197" expanded="true" signature="479:502" ph="SELECT * FRO... addresses" />
-            <marker date="1502442671197" expanded="true" signature="710:744" ph="SELECT * FRO... addresses" />
-            <marker date="1502442671197" expanded="true" signature="1068:1091" ph="SELECT * FRO... addresses" />
-            <marker date="1502442671197" expanded="true" signature="4091:4203" ph="INSERT INTO addresses... " />
-            <marker date="1502442671197" expanded="true" signature="4615:4725" ph="UPDATE addre... " />
-            <marker date="1502442671197" expanded="true" signature="5385:5417" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Entity/AddresseDTO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -962,18 +950,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Framework/QueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="92" column="13" lean-forward="false" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/DAO/AddresseDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding>
+            <marker date="1502444188047" expanded="true" signature="481:504" ph="SELECT * FRO... addresses" />
+            <marker date="1502444188047" expanded="true" signature="712:746" ph="SELECT * FRO... addresses" />
+            <marker date="1502444188047" expanded="true" signature="1070:1093" ph="SELECT * FRO... addresses" />
+            <marker date="1502444188047" expanded="true" signature="4093:4205" ph="INSERT INTO addresses... " />
+            <marker date="1502444188047" expanded="true" signature="4617:4727" ph="UPDATE addre... " />
+            <marker date="1502444188047" expanded="true" signature="5387:5419" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="e#6#31#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conf/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>

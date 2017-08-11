@@ -1,7 +1,7 @@
 <?php
-namespace m2i\projet\Model\DAO;
+namespace m2i\project\Model\DAO;
 
-use m2i\projet\Model\Entity\TrainingSessionDTO;
+use m2i\project\Model\Entity\TrainingSessionDTO;
 
 interface ITrainingSessionDAO {
 

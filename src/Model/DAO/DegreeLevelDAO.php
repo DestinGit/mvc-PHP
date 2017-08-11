@@ -1,7 +1,7 @@
 <?php
-namespace m2i\projet\Model\DAO;
+namespace m2i\project\Model\DAO;
 
-use m2i\projet\Model\Entity\DegreeLevelDTO;
+use m2i\project\Model\Entity\DegreeLevelDTO;
 
 class DegreeLevelDAO implements IDegreeLevelDAO {
 

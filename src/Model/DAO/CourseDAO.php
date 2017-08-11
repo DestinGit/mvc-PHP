@@ -1,7 +1,7 @@
 <?php
-namespace m2i\projet\Model\DAO;
+namespace m2i\project\Model\DAO;
 
-use m2i\projet\Model\Entity\CourseDTO;
+use m2i\project\Model\Entity\CourseDTO;
 
 class CourseDAO implements ICourseDAO {
 

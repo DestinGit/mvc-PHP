@@ -1,5 +1,5 @@
 <?php
-namespace m2i\projet\Model\Entity;
+namespace m2i\project\Model\Entity;
 
 class CoursesSkillDTO {
 
